@@ -9,6 +9,10 @@ import (
 	// - "github.com/gogs/gogs"
 	// _ "github.com/hashicorp/golang-lru"
 	// _ "github.com/owncast/owncast/logging"
+
+	// --- new ---
+	_ "github.com/labstack/echo"
+	_ "github.com/valyala/fasthttp"
 )
 
 func main() {
