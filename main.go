@@ -11,8 +11,10 @@ import (
 	// _ "github.com/owncast/owncast/logging"
 
 	// --- new ---
-	_ "github.com/labstack/echo"
+
+	_ "github.com/golang-jwt/jwt/v5"
 	_ "github.com/valyala/fasthttp"
+	_ "go.etcd.io/etcd/client/v3"
 )
 
 func main() {
