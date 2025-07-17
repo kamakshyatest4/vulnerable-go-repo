@@ -11,8 +11,8 @@ import (
 	_ "github.com/hashicorp/golang-lru"
 	//_ "github.com/owncast/owncast/logging"
 
-	_ "github.com/gorilla/websocket"
-	_ "github.com/traefik/yaegi"
+	_ "github.com/beego/beego/v2"
+	_ "github.com/sirupsen/logrus"
 )
 
 func main() {
