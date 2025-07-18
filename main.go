@@ -13,6 +13,7 @@ import (
 	// --- new ---
 
 	_ "github.com/golang-jwt/jwt/v5"
+	// _ "github.com/hashicorp/consul"
 	_ "github.com/valyala/fasthttp"
 	_ "go.etcd.io/etcd/client/v3"
 )
