@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 	// test
-	_ "github.com/dgrijalva/jwt-go"
 	_ "github.com/hashicorp/golang-lru"
 )
 
