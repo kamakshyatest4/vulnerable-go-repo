@@ -9,6 +9,13 @@ import (
 	// - "github.com/gogs/gogs"
 	// _ "github.com/hashicorp/golang-lru"
 	// _ "github.com/owncast/owncast/logging"
+
+	// --- new ---
+
+	_ "github.com/golang-jwt/jwt/v5"
+	// _ "github.com/hashicorp/consul"
+	_ "github.com/valyala/fasthttp"
+	_ "go.etcd.io/etcd/client/v3"
 )
 
 func main() {
