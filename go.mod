@@ -5,6 +5,7 @@ go 1.18
 require (
 	github.com/antchfx/xmlquery v1.3.0
 	github.com/gogo/protobuf v1.3.2
+	github.com/hashicorp/golang-lru v1.0.2
 )
 
 require (
