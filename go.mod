@@ -2,4 +2,7 @@ module github.com/endorlabs/vulnerable-golang
 
 go 1.18
 
-require github.com/hashicorp/golang-lru v1.0.2
+require (
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible
+	github.com/hashicorp/golang-lru v1.0.2
+)
