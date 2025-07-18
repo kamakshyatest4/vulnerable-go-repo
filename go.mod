@@ -6,7 +6,6 @@ require (
 	github.com/antchfx/xmlquery v1.3.0
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/gogo/protobuf v1.3.2
-	github.com/hashicorp/golang-lru v1.0.2
 )
 
 require (
