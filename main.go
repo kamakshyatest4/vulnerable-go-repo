@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
+	// "fmt"
 
-	"github.com/antchfx/xmlquery"
+	// "github.com/antchfx/xmlquery"
 	// _ "github.com/dgrijalva/jwt-go"
 	// _ "github.com/gogo/protobuf/proto"
 	// - "github.com/gogs/gogs"
@@ -11,13 +11,13 @@ import (
 	// _ "github.com/owncast/owncast/logging"
 )
 
-func main() {
-	fmt.Println("Hello world")
-	wadl, err := xmlquery.LoadURL("https://httpbin.org/get")
-	if err != nil {
-		panic(err)
-	}
+// func main() {
+// 	fmt.Println("Hello world")
+// 	wadl, err := xmlquery.LoadURL("https://httpbin.org/get")
+// 	if err != nil {
+// 		panic(err)
+// 	}
 
-	attr := xmlquery.FindOne(wadl, "//application/@xmlns")
-	fmt.Println(attr.InnerText())
-}
+// 	attr := xmlquery.FindOne(wadl, "//application/@xmlns")
+// 	fmt.Println(attr.InnerText())
+// }
