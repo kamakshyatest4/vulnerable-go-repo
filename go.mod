@@ -4,6 +4,7 @@ go 1.18
 
 require (
 	github.com/antchfx/xmlquery v1.4.4
+	github.com/gogo/protobuf v1.3.2
 	github.com/hashicorp/golang-lru v0.5.4
 )
 
